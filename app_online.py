@@ -55,7 +55,12 @@ with col1:
 
 with col2:
     st.markdown("### 📄 Pré-visualização do Laudo")
+<<<<<<< Updated upstream
 st.markdown(st.session_state.texto_laudo.replace("\n", "  \n"))
+=======
+    st.markdown(st.session_state.texto_laudo.replace("\n", "  \n"))
+"))
+>>>>>>> Stashed changes
 
 # Script de escuta contínua (após "Lili", timeout de 10s, volta para escuta passiva)
 st.markdown("""
