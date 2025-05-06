@@ -6,7 +6,7 @@ import streamlit as st
 import pandas as pd
 import os
 from datetime import datetime
-from lili_voz_comandos import processar_comando_por_voz
+import lili_voz_comandos
 
 st.set_page_config(layout="wide")
 
